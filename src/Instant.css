@@ -1,0 +1,14 @@
+.instant-box{
+    width: 450px;
+    height: 500px;
+    background: #FBF8FD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #000000;
+    opacity: 1;
+}
+
+.instant-button{
+    width: 10rem;
+    height: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+}

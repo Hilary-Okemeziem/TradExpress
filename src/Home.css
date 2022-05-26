@@ -1,0 +1,281 @@
+.hero-section{
+    background: transparent linear-gradient(124deg, #7C1FBF 0%, #470A73 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 34rem;
+    padding-top: 1rem;
+}
+
+.hero-link{
+    width: 17rem;
+    color: #7c1fbf;
+}
+
+.circle1{
+    height: 355px;
+    width: 355px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 3px #26093a;
+    border: 50px solid #ba90d3;
+    opacity: 0.35;
+    filter: blur(0px);
+    position: absolute;
+    top: 120px;   
+}
+
+.data-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: auto;
+    list-style-type: none;
+}
+
+.line{
+    border-top: 1px solid grey;  
+}
+
+.whycrypto-section{
+    background-color: #f2f2f2;
+}
+
+.box{
+    background-color: #ffffff;
+    width: 340px;
+    height: 440px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    opacity: 1;
+    display: block;
+    margin: auto;
+}
+
+.learn-link{
+    width: 17rem;
+    color: #26093A;
+}
+
+.buysell-section{
+    background-color: #f2f2f2;
+}
+
+.number{
+    background-color: #7c20bf;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: rgba(230, 53, 165, 0.3) 5px 5px;
+    margin-right: 10px;
+}
+
+.deposit{
+    flex-direction: column-reverse;
+}
+
+.account-link1{
+    background-color: #7C20BF;
+    width: 17rem;
+}
+
+.account-link2{
+    border: 0.5px solid #26093A;
+    height: 59px;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.review-section{
+    background-color: #f2f2f2;
+}
+
+.review-text1{
+    position: absolute;
+    bottom: 110px;
+}
+
+.review-text2{
+    position: absolute;
+    bottom: 150px;
+}
+
+.review-text3{
+    position: absolute;
+    bottom: 130px;
+}
+
+.review-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.copyright-section{
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:575px) {
+    .circle1{
+        height: 440px;
+        width: 440px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 50px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        top: 100px;   
+    }
+
+    .circle2{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 50px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        top: 190px;
+        right: 0;
+    }  
+}
+
+@media (min-width: 768px) {
+    .circle1{
+        height: 460px;
+        width: 460px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 50px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        top: 80px;   
+    }
+
+    .circle2{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 50px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        top: 140px;
+        right: 0;
+    }
+
+    .deposit{
+        flex-direction: row;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .hero-section{
+        background-color: #7c1fbf;
+        height: 45.7rem;
+        padding-top: 5rem;
+    }
+    
+    .hero-link{
+        width: 17rem;
+        color: #7c1fbf;
+    }
+    
+    .circle1{
+        height: 650px;
+        width: 670px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 100px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        left: 24.5rem;
+        
+    }
+    
+    
+    .circle2{
+        height: 580px;
+        width: 580px;
+        border-radius: 50%;
+        box-shadow: 0px 2px 3px #26093a;
+        border: 100px solid #ba90d3;
+        opacity: 0.35;
+        filter: blur(0px);
+        position: absolute;
+        left: 48rem;
+        top: 9.4rem;
+    }
+    
+    .data-list{
+        display: grid;
+        grid-template-columns: auto auto;
+        list-style-type: none;
+        border-right: 1px solid grey;
+        margin-top: 1rem;
+    }
+    
+    .percent{
+        padding-right: 53px;
+    }
+    
+    .data{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        list-style-type: none;
+    }
+    
+    .line{
+        border-top: 1px solid grey;
+        
+    }
+    
+}
+
