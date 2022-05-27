@@ -1,0 +1,28 @@
+.learn-page{
+    background-color: #f2f2f2;
+}
+
+.box{
+    background-color: #ffffff;
+    width: 340px;
+    height: 440px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    opacity: 1;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .learn-text{
+        width: 75%;
+    }
+    
+}

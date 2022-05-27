@@ -1,7 +1,7 @@
 .nav{
     background: transparent linear-gradient(10deg, #7C1FBF 0%, #470A73 100%) 0% 0% no-repeat padding-box; 
     opacity: 1;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-btn{

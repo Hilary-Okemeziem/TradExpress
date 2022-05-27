@@ -25,7 +25,7 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg position-relative'>
+                <div className='col-lg position-relative mt-5 mt-lg-0'>
                     <img src={img7} className='img-fluid' alt="" />
                     <div className=' review-text2'>
                         <img src={img8} className='img-fluid ms-3' alt="" />
@@ -40,7 +40,7 @@ const Review = () => {
                     </div>
 
                 </div>
-                <div className='col-lg position-relative'>
+                <div className='col-lg position-relative mt-5 mt-lg-0'>
                     <img src={img7} className='img-fluid' alt="" />
                     <div className=' review-text3'>
                         <img src={img8} className='img-fluid ms-3' alt="" />

@@ -17,7 +17,7 @@ const Account = () => {
             </div>
             <div className='mt-5'>
                 <Link to='/Started'>
-                    <button className='btn btn-lg account-link1'>
+                    <button className='btn btn-lg account-link1 text-white'>
                     Get Started
                     </button>
                 </Link>    

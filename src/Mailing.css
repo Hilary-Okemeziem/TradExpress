@@ -1,0 +1,30 @@
+.mailing-box{
+    width: 350px;
+    height: 600px;
+    background: #FBF8FD 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #000000;
+    opacity: 1;
+}
+
+.mail-link{
+    text-decoration: none;
+    color: #7c20bf;
+}
+
+.mail-btn{
+    width: 16rem;
+    background-color: #7c20bf;
+    border-radius: 8px;
+    color: white;
+}
+
+
+@media (min-width: 992px) {
+    .mailing-box{
+        width: 450px;
+    }
+
+    .mail-btn{
+        width: 22.1rem;
+    }
+}

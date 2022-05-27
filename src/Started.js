@@ -1,8 +1,12 @@
 import React from 'react'
+import './Started.css'
+import Individual from './Individual'
 
 const Started = () => {
   return (
-    <div>Started</div>
+    <div>
+      <Individual/>
+    </div>
   )
 }
 

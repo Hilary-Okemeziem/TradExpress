@@ -1,19 +1,19 @@
-.instant-box{
+.started-box{
     width: 350px;
-    height: 600px;
+    height: 700px;
     background: #FBF8FD 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 3px #000000;
     opacity: 1;
 }
 
-.buy-button{
+.individual-button{
     width: 7rem;
     height: 2rem;
     background-color: #ffffff;
     border-radius: 8px;
 }
 
-.sell-button{
+.business-button{
     width: 8.7rem;
     height: 2rem;
     background-color: rgb( 223, 222, 222);
@@ -26,26 +26,31 @@
     padding: 1px;
 }
 
-.buy-btn2{
+.individual-btn2{
     width: 16rem;
     background-color: #7c20bf;
     border-radius: 8px;
 }
 
+.individual-link{
+    text-decoration: none;
+    color: #7c20bf;
+}
+
 @media (min-width: 992px) {
-    .instant-box{
+    .started-box{
         width: 450px;
     }
 
-    .buy-button{
+    .individual-button{
         width: 12rem;
     }
     
-    .sell-button{
+    .business-button{
         width: 10rem;
     }
 
-    .buy-btn2{
+    .individual-btn2{
         width: 22.1rem;
     }
     

@@ -8,6 +8,8 @@
 .hero-link{
     width: 17rem;
     color: #7c1fbf;
+    z-index: 1;
+    position: absolute;
 }
 
 .circle1{
@@ -19,7 +21,7 @@
     opacity: 0.35;
     filter: blur(0px);
     position: absolute;
-    top: 120px;   
+    top: 120px;  
 }
 
 .data-list{

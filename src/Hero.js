@@ -31,7 +31,7 @@ const Hero = () => {
                             </button>
                         </Link>    
                     </div>  
-                    <div className='mt-5'>
+                    <div className='mt-5 pt-5'>
                         <a href=""><img src={img1} alt="" /></a>
                         <a href="" className='ms-3'><img src={img2} alt="" /></a>
                     </div>

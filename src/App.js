@@ -10,6 +10,9 @@ import Instant from './Instant';
 import Started from './Started';
 import Buy from './Buy';
 import Sell from './Sell';
+import Individual from './Individual';
+import Business from './Business';
+import Mailing from './Mailing';
 
 
 
@@ -26,6 +29,10 @@ function App() {
             <Route path='started' element={<Started/>}/>
             <Route path='buy' element={<Buy/>}/>
             <Route path='sell' element={<Sell/>}/>
+            <Route path='individual' element={<Individual/>}/>
+            <Route path='business' element={<Business/>}/>
+            <Route path='mailing' element={<Mailing/>}/>
+            
             <Route path='*' element={<Error/>} />
           </Routes>
       </BrowserRouter>
