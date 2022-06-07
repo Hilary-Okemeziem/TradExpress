@@ -116,6 +116,17 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+    
+}
+
+.review-pics{
+    position: relative;
+    right: 100px;
+}
+
+.review-quote{
+    position: absolute;
+    left: 0px;
 }
 
 .copyright-section{
@@ -137,24 +148,108 @@
 
 
 
+@media (min-width: 398px) {
+    .review-text1{
+        position: absolute;
+        bottom: 150px;
+    }
+    
+    .review-pics{
+        position: relative;
+        right: 120px;
+    }
+}
 
 
 
+@media (min-width: 425px){
+    .review-text1{
+        position: absolute;
+        bottom: 150px;
+    }
+    
+    .review-text2{
+        position: absolute;
+        bottom: 160px;
+    }
+    
+    .review-text3{
+        position: absolute;
+        bottom: 140px;
+    }
 
+}
 
+@media (min-width: 450px){
+    .review-quote{
+        position: absolute;
+        left: 25px;
+        top: -15px;
+    }
+}
 
+@media (min-width: 469px){
+    .review-text3{
+        bottom: 160px;
+    }
+}
 
+@media (min-width: 500px){
+    .review-quote{
+        left: 35px;
+    }
+}
 
+@media (min-width: 525px){
+    .review-quote{
+        left: 45px;
+        top: -25px;
+    }
+}
 
+@media (min-width: 546px){
+    .review-quote{
+        left: 30px;
+    }
 
+    .review-text1{
+        position: absolute;
+        bottom: 150px;
+        left: 50px;
+    }
+    
+    .review-text2{
+        position: absolute;
+        bottom: 160px;
+        left: 50px;
+    }
+    
+    .review-text3{
+        position: absolute;
+        bottom: 160px;
+        left: 50px;
+    }
+}
 
+@media (min-width:549px) {
+    /* .review-text2{
+        position: absolute;
+        bottom: 100px;
+        left: 0px;
+        width: 90%;
+    }
 
+    .review-pics2{
+        position: relative;
+        right: 390px;
+        top: 160px;
+    } */
 
-
-
-
-
-
+    /* .review-img2{
+        position: absolute;
+        left: 50px;
+    } */
+}
 
 
 @media (min-width:575px) {
@@ -277,6 +372,32 @@
     .line{
         border-top: 1px solid grey;
         
+    }
+
+    .review-text1{
+        position: absolute;
+        bottom: 110px;
+        width: 100%;
+    }
+    
+    .review-text2{
+        position: absolute;
+        bottom: 150px;
+        width: 100%;
+    }
+    
+    .review-text3{
+        position: absolute;
+        bottom: 130px;
+        width: 100%;
+    }
+
+    .review-pics{
+        position: static;
+    }
+
+    .review-quote{
+        position: static;
     }
     
 }
